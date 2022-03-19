@@ -97,7 +97,7 @@ while True:
         remainTime()
     else :
         cv2.putText(img, "Tidak terdeteksi wajah", (50, 350), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,0,255), 1)
-        print(f"Tidak terdeteksi wajah")
+        #print(f"Tidak terdeteksi wajah")
 
     # Deteksi FPS
     fps, img = fpsReader.update(img,pos=(50,450),color=(0,255,0),scale=1.5,thickness=2)
@@ -112,7 +112,7 @@ while True:
         cv2.circle(img, center, 5, (255, 0, 255), cv2.FILLED)
     else :
         cv2.putText(img, "Tidak terdeteksi posture tubuh", (50, 380), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,0,255), 1)
-        print(f"Tidak terdeteksi posture tubuh")
+        #print(f"Tidak terdeteksi posture tubuh")
 
     timeLabel = f"Saklar dimatikan dalam 00:0{T} detik"
     cv2.putText(img, timeLabel, (50,50), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,0,0), 2)

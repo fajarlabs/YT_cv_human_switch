@@ -6,7 +6,7 @@ Membuat saklar deteksi wajah dan pose dengan computer vision
 2.) Instalasi paket dengan perintah
 
 ```
-pip install -r requirements.txt</b>
+pip install -r requirements.txt
 ```
 
 3.) Menjalankan program dengan perintah 

@@ -16,7 +16,10 @@ pip install -r requirements.txt
 python cv_human_switch.py
 ```
 5.) Screenshot ketika program di jalankan<br />
-<img src="https://github.com/fajarlabs/cv_human_switch/blob/master/Screenshot%202022-03-19%20230355.png?raw=true" width="500" /><br />
+<img src="https://github.com/fajarlabs/cv_human_switch/blob/master/Screenshot%202022-03-19%20230355.png?raw=true" width="500" /><br /><br />
+
+6.) Wiring diagram<br />
+<img src="https://github.com/fajarlabs/YT_cv_human_switch/blob/master/sketch.jpg?raw=true" width="500" /><br /><br />
 
 # Fungsi 
 1.) Untuk hemat energi listrik<br />
